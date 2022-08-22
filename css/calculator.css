@@ -1,0 +1,183 @@
+.page{
+    background-color:rgb(238, 238, 238);
+    padding:5%;
+}
+.header{
+    
+    margin-left: 40%;
+    color: #1174b6;
+}
+.images_1{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    float:left;
+}
+.images_2{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    float:right;
+}
+
+.interface {
+    background: rgb(33, 64, 167);
+    border-radius: 10px;
+    width: 255px;
+    height: 465px;
+    margin-left: 40%;
+    margin-top: 100px;
+    float: center;
+    margin-right: 40px;
+    margin-top: 50px;
+
+    
+}
+
+.theme {
+    display: block;
+    background:#a53309;
+}
+
+.theme_2 {
+    background: rgb(14, 12, 119);
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    color: #eee;
+}
+
+.theme_2:hover
+{
+    background: #47473c;
+}
+
+.screen {
+    width: 92%;
+    min-height: 50px;
+    background: #c7548a;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.screen-value {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    background: #98b419;
+    color: #fff;
+    float: right;
+    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px 10px 10px 0px;
+}
+
+.operator {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    padding: 10px 0px 10px 0px;
+    /*background: #fff;*/
+    background: #424c52;
+    color: #fff;
+    border-radius: 10px 0 0 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.keypad {
+    width: 100%;
+    z-index: 1000;
+    display: block;
+}
+
+.key {
+    background: rgb(27, 24, 18);
+    color: rgb(255, 255, 255);
+    width: 62.5px;
+    height: 62.5px;
+    margin: 1px;
+    margin-right: 0px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key:hover {
+    background: #4b2e1f;
+    font-size: 22px;
+}
+
+.function-keys {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: wrap;
+}
+
+.function-keys .fk,
+.fk {
+    background: #e02121;
+    color: rgb(4, 248, 4);
+    width: 62.5px;
+    height: 62.5px;
+    margin: 1px;
+    font-weight: bolder;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.function-keys .txt {
+    font-family: Times, serif;
+    font-size: 35px;
+}
+
+.fk:hover {
+    background: rgb(0, 63, 238);
+    color: #fff;
+}
+
+.right-key .fk {
+    font-size: 30px;
+    background-color: #2a3313;
+}
+
+.left-key {
+    float: left;
+    width: 75%;
+}
+
+.right-key {
+    float: right;
+    width: 25%;
+}
+
+canvas {
+    display: block;
+    position: relative;
+    border: 5px solid #b61150;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+

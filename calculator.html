@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Fabs Calculator</title>
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="css/calculator.css" />  
+</head>
+
+<body>
+    <div class="page">
+        <h1 class="header">Fabs Calculator</h1>
+        <div class="images_1">
+            <img src="Images/planets.avif" alt="Planets" height="250" width="400">
+            <img src="Images/images.jfif" alt="Galaxies" height="250" width="400">   
+        </div>
+        <div class="images_2">
+            <img src="Images/mars.jfif" alt="Mars" height="250" width="400">
+            <img src="Images/maths_equations.webp" alt="Equations" height="250" width="400"> 
+        </div>
+    <div class="interface">
+        <div class="theme" id="theme">
+            <button class="theme_2" >Fabio Nascimento</button>  
+        </div>
+        <div class="screen">
+            <div class="operator" id="operator">`</div>
+            <div class="screen-value" id="screen">0</div>
+        </div>
+        <div class="keypad" id="keypad">
+            <div class="function-keys">
+                
+                <span class="k-switch fk" id="sq" onclick="getkey('fk', 'sq')">√</span>
+                
+                <span class="k-switch fk" id="pow" onclick="getkey('fk', 'pow')">x²</span>
+                <span class="k-clear fk" id="pow2" onclick="getkey('fk', 'pow2')">xⁿ</span>
+                <span class="k-switch fk txt" id="percent" onclick="getkey('fk', 'percent')">%</span>
+                <span class="k-div fk" id="back" onclick="getkey('fk', 'back')">←</span>
+                <span class="k-div fk txt" id="clear" onclick="getkey('fk', 'clear')">C</span>
+                <span class="k-div fk" id="div" onclick="getkey('fk', 'div')">÷</span>
+                
+            </div>
+            <div class="left-key">
+                <div class="row">
+                    <span class="k-7 key" id="k7" onclick="getkey('nk', 'k7')">7</span>
+                    <span class="k-8 key" id="k8" onclick="getkey('nk', 'k8')">8</span>
+                    <span class="k-9 key" id="k9" onclick="getkey('nk', 'k9')">9</span>
+                </div>
+                <div class="row">
+                    <span class="k-4 key" id="k4" onclick="getkey('nk', 'k4')">4</span>
+                    <span class="k-5 key" id="k5" onclick="getkey('nk', 'k5')">5</span>
+                    <span class="k-6 key" id="k6" onclick="getkey('nk', 'k6')">6</span>
+                </div>
+                <div class="row">
+                    <span class="k-1 key" id="k1" onclick="getkey('nk', 'k1')">1</span>
+                    <span class="k-2 key" id="k2" onclick="getkey('nk', 'k2')">2</span>
+                    <span class="k-3 key" id="k3" onclick="getkey('nk', 'k3')">3</span>
+                </div>
+                <div class="row">
+                    <span class="k-pm key" id="kper" onclick="getkey('fk', 'kper')">±</span>
+                    <span class="k-0 key" id="k0" onclick="getkey('nk', 'k0')">0</span>
+                    <span class="k-dot key" id="kdot" onclick="getkey('fk', 'kdot')">∙</span>
+                </div>
+            </div>
+            <div class="right-key col">
+                <span class="k-mult fk" id="kmult" onclick="getkey('fk', 'kmult')">x</span>
+                <span class="k-plus fk" id="kplus" onclick="getkey('fk', 'kplus')">+</span>
+                <span class="k-minus fk" id="kminus" onclick="getkey('fk', 'kminus')">-</span>
+                <span class="k-equalto fk" id="kequal" onclick="getkey('fk', 'kequal')">=</span>
+            </div>
+        </div>
+        
+    </div>      
+    <script src="js/calculator.js"></script>  
+</body>
+</html>
